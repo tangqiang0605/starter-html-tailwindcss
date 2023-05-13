@@ -1,0 +1,18 @@
+{
+  "name": "starter-html-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:tw": "npx tailwindcss -o tailwind.css --watch",
+    "watch:html": "npx lite-server",
+    "watch": "run-p watch:tw watch:html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
